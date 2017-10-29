@@ -18,10 +18,10 @@ return array
 
 function iLoveTheBeatles(number) {
   var array = []
-  let i=number
+  let i = 0
   do {
     array[i] = "I love the Beatles!"
     i=i+1
-  } while (i<15)
+  } while (i+number<15)
   return array
 }
